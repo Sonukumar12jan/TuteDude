@@ -1,90 +1,31 @@
-# 📘 Tutedude Assignment 1 – Basic Python Concepts
+# TuteDude_Assignment---01
 
-This repository contains solutions to **Assignment 1** of the Tutedude Python course, **Module 2: Basic Python Concepts**. The assignment consists of two tasks:
+****************** First_Question *************
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-- **Task 1:** Perform Basic Mathematical Operations
-- **Task 2:** Create a Personalized Greeting
+num1 means pahla number
+num2 means dusra number
+float means ek variable (ex :- 1.0,5.0, etc.) 
+input means jisme hum koi integer, float etc. value ko enter karte h task perform karne ke liye
+"" is double cotet ke andar jo v h as it is print hoga input lene time
 
----
+addition = num1 + num2 => add input number
+subtraction = num1 - num2 => subtract input number 
+multiplication = num1 * num2 => Multiple input number
+division = num1 / num2 => Division input number
 
-## 🧮 Task 1: Perform Basic Mathematical Operations
+print("\nAddition:", addition)  => print the addition value
+print("Subtraction:", subtraction)  => print the Subtraction value
+print("Multiplication:", multiplication)  => print the Multiplication value
+print("Division:", division)  => print the Division value
 
-### ✅ Objective
-Write a Python program that:
-1. Takes **two numbers** as input from the user.
-2. Performs the following operations:
-   - Addition
-   - Subtraction
-   - Multiplication
-   - Division
-3. Displays the result of each operation.
+****************** Second_Question *************
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
 
-### 📄 File: `Task1.py`
+first_name means enter the name
+last_name means enter the surname 
 
-#### 💻 Sample Functionality:
-```python
-Enter any number 1: 10
-Enter any number 2: 5
-Addition: 15.0
-Subtraction: 5.0
-Multiplication: 50.0
-Divition: 2.0
-````
-
-The program uses separate functions (`addNum`, `subNum`, `mulNum`, and `divNum`) for modular and reusable arithmetic logic.
-
----
-
-## 🙋‍♂️ Task 2: Create a Personalized Greeting
-
-### ✅ Objective
-
-Write a Python program that:
-
-1. Takes a user's **first name** and **last name** as input.
-2. Combines them into a full name.
-3. Prints a personalized greeting message using the full name.
-
-### 📄 File: `Task2.py`
-
-#### 💻 Sample Functionality:
-
-```python
-Enter your first name: John
-Enter your last name: Doe
-Greetings! John Doe.
-```
-
-The script defines a function `greatingCode(first, last)` to format the greeting message.
-
----
-
-## 📝 Submission Notes
-
-* Both tasks are implemented as standalone Python scripts.
-* All files are tested and functional.
-* This repository fulfills the assignment requirements as outlined in **Module 2: Basic Python Concepts** of the Tutedude course.
-
----
-
-## 📂 Files in this Repository
-
-| File Name   | Description                         |
-| ----------- | ----------------------------------- |
-| `Task1.py`  | Basic arithmetic operations program |
-| `Task2.py`  | Personalized greeting generator     |
-| `README.md` | This documentation file             |
-| `ASSIGNMENT 1_ Basic Python Concepts.pdf` | The assignment task sheet.             |
-
----
-
-## 📌 Reference
-
-Please refer to **Module 2** of the Tutedude Python course for foundational concepts, syntax, and examples that support this assignment.
-
----
-
-## ✅ Status
-
-> ✅ **Completed and tested. Ready for submission.**
-
+print(f"\nHello, {first_name} {last_name}! Welcome to the Python program.")
+print the enter value and as it is written text
